@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    315409,       5713]
+NotebookDataLength[    315373,       5712]
 NotebookOptionsPosition[    304657,       5540]
-NotebookOutlinePosition[    305209,       5559]
-CellTagsIndexPosition[    305166,       5556]
+NotebookOutlinePosition[    305173,       5558]
+CellTagsIndexPosition[    305130,       5555]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5538,9 +5538,8 @@ from CompanyN\[LongDash]A CompanyN Web Resource. URL.\
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 580.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Book"}, "Textbook.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -5567,7 +5566,7 @@ Cell[1439, 48, 117941, 2018, 364, "Output",ExpressionUUID->"26ad2046-e760-4e94-b
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[119417, 2071, 586, 15, 29, "Input",ExpressionUUID->"2514f34e-f7c9-4fc2-a95c-adaa73087131"],
-Cell[120006, 2088, 147458, 2503, 1034, "Output",ExpressionUUID->"7dd47706-052c-4923-aec1-cc781e70b261"]
+Cell[120006, 2088, 147458, 2503, 1023, "Output",ExpressionUUID->"7dd47706-052c-4923-aec1-cc781e70b261"]
 }, Open  ]],
 Cell[267479, 4594, 151, 3, 22, "Text",ExpressionUUID->"178b493d-98bb-425c-8c19-2780a62294b9"],
 Cell[CellGroupData[{
@@ -5718,6 +5717,4 @@ Cell[304404, 5532, 213, 3, 70, "Reference",ExpressionUUID->"5e51b0bf-cd5d-40b5-a
 }
 ]
 *)
-
-(* End of internal cache information *)
 
