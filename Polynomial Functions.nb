@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2859488,      48162]
-NotebookOptionsPosition[   2854077,      48066]
-NotebookOutlinePosition[   2854478,      48082]
-CellTagsIndexPosition[   2854435,      48079]
+NotebookDataLength[   2873283,      48501]
+NotebookOptionsPosition[   2865090,      48357]
+NotebookOutlinePosition[   2865491,      48373]
+CellTagsIndexPosition[   2865448,      48370]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -47960,6 +47960,297 @@ with Mathematica 13.1 function ComplexPlot3D.svg\"\>"], "Output",
  CellLabel->"Out[29]=",ExpressionUUID->"ac003241-8f30-4c93-bb09-ef561cd9a6c2"]
 }, Open  ]],
 
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", "%29", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[31]:=",ExpressionUUID->"cc0b88e1-adda-4a0f-83d4-ba6e98c49ddd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quadratic functions", "Subsection",
+ CellChangeTimes->{{3.8711151286189966`*^9, 
+  3.8711151315169353`*^9}},ExpressionUUID->"8326669e-5fdc-440b-8a0f-\
+65e5ddeb4c49"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BernoulliB", "[", 
+  RowBox[{"2", ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8711151150947633`*^9, 3.8711151198699965`*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"d9d033cc-f694-4aa5-ab07-8419879cb7a9"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "6"], "-", "x", "+", 
+  SuperscriptBox["x", "2"]}]], "Output",
+ CellChangeTimes->{3.8711151202313004`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"c9f78e07-b966-4ed7-af4e-75ab26fed15a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+      "\"\<Plot of a quadratic function with the Bernoulli polynomial B_2(x) \
+in the complex plane from -2-2i to 2+2i with colors created with Mathematica \
+13.1 function ComplexPlot3D.svg\>\""}], "}"}], "]"}], ",", 
+   RowBox[{"ComplexPlot3D", "[", 
+    RowBox[{
+     RowBox[{"BernoulliB", "[", 
+      RowBox[{"2", ",", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{
+        RowBox[{"-", "2"}], "-", 
+        RowBox[{"2", "I"}]}], ",", 
+       RowBox[{"2", "+", 
+        RowBox[{"2", "I"}]}]}], "}"}], ",", 
+     RowBox[{"PlotLegends", "->", "Automatic"}], ",", 
+     RowBox[{"ImageSize", "->", "Full"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8711151388016725`*^9, 3.871115158299655*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"99f24f31-8300-49ca-89ee-ad1bf851d2fb"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of a quadratic function with the Bernoulli polynomial \
+B_2(x) in the complex plane from -2-2i to 2+2i with colors created with \
+Mathematica 13.1 function ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8711151678037796`*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"587384b9-fda7-4a41-8c07-3703fbcfa688"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\<C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\special-functions\\\\\
+Plot of a quadratic function with the Bernoulli polynomial B_2(x) in the \
+complex plane from -2-2i to 2+2i with colors created with Mathematica 13.1 \
+function ComplexPlot3D.svg\>\"", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[34]:=",ExpressionUUID->"6501cc6e-cd7f-4585-ad19-ea2aee64e57f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cubic Functions", "Subsection",
+ CellChangeTimes->{{3.8711152185962343`*^9, 
+  3.8711152205473747`*^9}},ExpressionUUID->"880d19fb-b40c-4ccf-8189-\
+acd2b57778b5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BernoulliB", "[", 
+  RowBox[{"3", ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.871115221628009*^9, 3.871115225752019*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"a1f82c46-d1fa-45c2-be18-b7ccafd60500"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["x", "2"], "-", 
+  FractionBox[
+   RowBox[{"3", " ", 
+    SuperscriptBox["x", "2"]}], "2"], "+", 
+  SuperscriptBox["x", "3"]}]], "Output",
+ CellChangeTimes->{3.8711152260464783`*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"3dcd2c37-14b6-484f-bd17-4c7a75ea73b7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+      "\"\<Plot of a cubic function with the Bernoulli polynomial B_3(x) in \
+the complex plane from -2-2i to 2+2i with colors created with Mathematica \
+13.1 function ComplexPlot3D.svg\>\""}], "}"}], "]"}], ",", 
+   RowBox[{"ComplexPlot3D", "[", 
+    RowBox[{
+     RowBox[{"BernoulliB", "[", 
+      RowBox[{"3", ",", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{
+        RowBox[{"-", "2"}], "-", 
+        RowBox[{"2", "I"}]}], ",", 
+       RowBox[{"2", "+", 
+        RowBox[{"2", "I"}]}]}], "}"}], ",", 
+     RowBox[{"PlotLegends", "->", "Automatic"}], ",", 
+     RowBox[{"ImageSize", "->", "Full"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.871115234548111*^9, 3.871115243200418*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"50b7014f-904a-4b3f-86d0-d3126603714a"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of a cubic function with the Bernoulli polynomial B_3(x) in \
+the complex plane from -2-2i to 2+2i with colors created with Mathematica \
+13.1 function ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.871115248056906*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"2920ed7d-0f2d-4391-8cb9-ccb5fc24f448"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quartic Functions", "Subsection",
+ CellChangeTimes->{{3.8711152737822514`*^9, 
+  3.871115276860722*^9}},ExpressionUUID->"021c6fa3-05c7-4de7-936f-\
+d2b0da044428"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BernoulliB", "[", 
+  RowBox[{"4", ",", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8711152961755595`*^9, 3.871115298061465*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"f927beab-cee9-4c82-bfa6-21c0f935b657"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox["1", "30"]}], "+", 
+  SuperscriptBox["x", "2"], "-", 
+  RowBox[{"2", " ", 
+   SuperscriptBox["x", "3"]}], "+", 
+  SuperscriptBox["x", "4"]}]], "Output",
+ CellChangeTimes->{3.8711152985603175`*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"f47a9d6c-7430-4b26-9feb-cf53f7863920"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Names", "[", "\"\<*Form\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8711153054205236`*^9, 3.8711153076611767`*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"ade5345c-8176-406c-9a8b-400042828f06"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"AccountingForm\"\>", ",", "\<\"AnatomyForm\"\>", 
+   ",", "\<\"BaseForm\"\>", ",", "\<\"BlankForm\"\>", ",", "\<\"BoxForm\"\>", 
+   ",", "\<\"CapForm\"\>", ",", "\<\"CForm\"\>", ",", "\<\"ColonForm\"\>", 
+   ",", "\<\"ColumnForm\"\>", ",", "\<\"DecimalForm\"\>", 
+   ",", "\<\"DisplayForm\"\>", ",", "\<\"EdgeCapForm\"\>", 
+   ",", "\<\"EdgeForm\"\>", ",", "\<\"EdgeJoinForm\"\>", 
+   ",", "\<\"EngineeringForm\"\>", ",", "\<\"ExportForm\"\>", 
+   ",", "\<\"FaceForm\"\>", ",", "\<\"FillForm\"\>", ",", "\<\"FontForm\"\>", 
+   ",", "\<\"FortranForm\"\>", ",", "\<\"FullForm\"\>", 
+   ",", "\<\"HoldForm\"\>", ",", "\<\"HorizontalForm\"\>", 
+   ",", "\<\"HornerForm\"\>", ",", "\<\"InputForm\"\>", 
+   ",", "\<\"JoinForm\"\>", ",", "\<\"LongForm\"\>", 
+   ",", "\<\"MathMLForm\"\>", ",", "\<\"MatrixForm\"\>", 
+   ",", "\<\"NumberForm\"\>", ",", "\<\"OutputForm\"\>", 
+   ",", "\<\"PaddedForm\"\>", ",", "\<\"ParentForm\"\>", 
+   ",", "\<\"PercentForm\"\>", ",", "\<\"PolynomialForm\"\>", 
+   ",", "\<\"PrecedenceForm\"\>", ",", "\<\"PrintForm\"\>", 
+   ",", "\<\"PromptForm\"\>", ",", "\<\"QuantityForm\"\>", 
+   ",", "\<\"RealBlockDiagonalForm\"\>", ",", "\<\"RecurringDigitsForm\"\>", 
+   ",", "\<\"ResponseForm\"\>", ",", "\<\"RuleForm\"\>", 
+   ",", "\<\"ScientificForm\"\>", ",", "\<\"ScriptForm\"\>", 
+   ",", "\<\"SequenceForm\"\>", ",", "\<\"ShowShortBoxForm\"\>", 
+   ",", "\<\"SpaceForm\"\>", ",", "\<\"StandardForm\"\>", 
+   ",", "\<\"StringForm\"\>", ",", "\<\"StrokeForm\"\>", 
+   ",", "\<\"StyleForm\"\>", ",", "\<\"SurdForm\"\>", 
+   ",", "\<\"SyntaxForm\"\>", ",", "\<\"TableForm\"\>", 
+   ",", "\<\"TeXForm\"\>", ",", "\<\"TextForm\"\>", 
+   ",", "\<\"TraditionalForm\"\>", ",", "\<\"TreeForm\"\>", 
+   ",", "\<\"ValueForm\"\>", ",", "\<\"VerticalForm\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.8711153080235577`*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"b05a4d3b-adf2-4f4f-b3e5-9fd1d32cd5a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TextForm", "[", 
+  RowBox[{"BernoulliB", "[", 
+   RowBox[{"4", ",", "x"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8711153452285957`*^9, 3.8711153550695825`*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"b1a098d7-4231-4e61-bf53-0f35aefbb2b8"],
+
+Cell[OutputFormData["\<\
+-1/30 + x^2 - 2*x^3 + x^4\
+\>", "\<\
+  1      2      3    4
+-(--) + x  - 2 x  + x
+  30\
+\>"], "Output",
+ CellChangeTimes->{3.871115355375743*^9},
+ CellLabel->
+  "Out[39]//TextForm=",ExpressionUUID->"6b558d89-6173-4b78-976c-1f672b7c8a24"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CForm", "[", 
+  RowBox[{"BernoulliB", "[", 
+   RowBox[{"4", ",", "x"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.871115372073569*^9, 3.8711153747474174`*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"292a6100-3f50-49a3-a185-7c6ba5f1fe2d"],
+
+Cell["\<\
+-0.03333333333333333 + Power(x,2) - 2*Power(x,3) + Power(x,4)\
+\>", "Output",
+ CellChangeTimes->{3.8711153753398113`*^9},
+ CellLabel->
+  "Out[40]//CForm=",ExpressionUUID->"9e319bdc-799d-450d-ba4a-570431857008"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+      "\"\<Plot of a quartic function with the Bernoulli polynomial B_4(x) in \
+the complex plane from -2-2i to 2+2i with colors created with Mathematica \
+13.1 function ComplexPlot3D.svg\>\""}], "}"}], "]"}], ",", 
+   RowBox[{"ComplexPlot3D", "[", 
+    RowBox[{
+     RowBox[{"BernoulliB", "[", 
+      RowBox[{"4", ",", "x"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", 
+       RowBox[{
+        RowBox[{"-", "2"}], "-", 
+        RowBox[{"2", "I"}]}], ",", 
+       RowBox[{"2", "+", 
+        RowBox[{"2", "I"}]}]}], "}"}], ",", 
+     RowBox[{"PlotLegends", "->", "Automatic"}], ",", 
+     RowBox[{"ImageSize", "->", "Full"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8711152935087075`*^9, 3.8711152951667185`*^9}, {
+  3.8711153829749613`*^9, 3.871115412588634*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"8736d625-fdee-491c-8ed2-3e214ccfe028"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of a quartic function with the Bernoulli polynomial B_4(x) \
+in the complex plane from -2-2i to 2+2i with colors created with Mathematica \
+13.1 function ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{{3.871115407514177*^9, 3.8711154239356575`*^9}},
+ CellLabel->"Out[43]=",ExpressionUUID->"ad46c112-5d34-4d8f-b414-0c1949c61373"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"DeleteFile", "[", 
+  "\"\<C:\\\\Users\\\\peter\\\\Documents\\\\GitHub\\\\special-functions\\\\\
+Plot of a cubic function with the Bernoulli polynomial B_4(x) in the complex \
+plane from -2-2i to 2+2i with colors created with Mathematica 13.1 function \
+ComplexPlot3D.svg\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.871115414373232*^9, 3.871115419017126*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"1bbc951a-2919-4c08-a75d-2410516550fb"],
+
 Cell[CellGroupData[{
 
 Cell["Enter bulleted item text here.", "Item",ExpressionUUID->"49dfc9ef-37ad-4725-a35e-c31407d4ba5f"],
@@ -48128,39 +48419,87 @@ Cell[CellGroupData[{
 Cell[2849208, 47928, 990, 24, 124, "Input",ExpressionUUID->"dbb9a5a2-7b90-4376-ba52-057cabf59477"],
 Cell[2850201, 47954, 442, 5, 52, "Output",ExpressionUUID->"ac003241-8f30-4c93-bb09-ef561cd9a6c2"]
 }, Open  ]],
+Cell[2850658, 47962, 165, 3, 28, "Input",ExpressionUUID->"cc0b88e1-adda-4a0f-83d4-ba6e98c49ddd"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[2850680, 47964, 101, 0, 32, "Item",ExpressionUUID->"49dfc9ef-37ad-4725-a35e-c31407d4ba5f"],
-Cell[2850784, 47966, 111, 0, 25, "ItemParagraph",ExpressionUUID->"bdde9d30-716d-4fab-9836-ad4b8f449dde"],
+Cell[2850860, 47970, 171, 3, 54, "Subsection",ExpressionUUID->"8326669e-5fdc-440b-8a0f-65e5ddeb4c49"],
 Cell[CellGroupData[{
-Cell[2850920, 47970, 98, 0, 26, "Subitem",ExpressionUUID->"01861702-9093-4275-8ad5-aaa0af580d0f"],
-Cell[2851021, 47972, 114, 0, 23, "SubitemParagraph",ExpressionUUID->"edb91bb3-c712-49bd-8132-e984322e44cc"],
+Cell[2851056, 47977, 235, 4, 28, "Input",ExpressionUUID->"d9d033cc-f694-4aa5-ab07-8419879cb7a9"],
+Cell[2851294, 47983, 228, 5, 48, "Output",ExpressionUUID->"c9f78e07-b966-4ed7-af4e-75ab26fed15a"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[2851160, 47976, 101, 0, 25, "Subsubitem",ExpressionUUID->"bb7e752b-e132-4f47-856c-37023037ad90"],
-Cell[2851264, 47978, 117, 0, 22, "SubsubitemParagraph",ExpressionUUID->"57289262-2988-40dc-a43b-66edea65ceea"]
+Cell[2851559, 47993, 982, 24, 124, "Input",ExpressionUUID->"99f24f31-8300-49ca-89ee-ad1bf851d2fb"],
+Cell[2852544, 48019, 406, 5, 52, "Output",ExpressionUUID->"587384b9-fda7-4a41-8c07-3703fbcfa688"]
+}, Open  ]],
+Cell[2852965, 48027, 421, 7, 67, "Input",ExpressionUUID->"6501cc6e-cd7f-4585-ad19-ea2aee64e57f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2853423, 48039, 167, 3, 54, "Subsection",ExpressionUUID->"880d19fb-b40c-4ccf-8189-acd2b57778b5"],
+Cell[CellGroupData[{
+Cell[2853615, 48046, 231, 4, 28, "Input",ExpressionUUID->"a1f82c46-d1fa-45c2-be18-b7ccafd60500"],
+Cell[2853849, 48052, 299, 8, 50, "Output",ExpressionUUID->"3dcd2c37-14b6-484f-bd17-4c7a75ea73b7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2854185, 48065, 976, 24, 124, "Input",ExpressionUUID->"50b7014f-904a-4b3f-86d0-d3126603714a"],
+Cell[2855164, 48091, 400, 5, 52, "Output",ExpressionUUID->"2920ed7d-0f2d-4391-8cb9-ccb5fc24f448"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2855613, 48102, 167, 3, 54, "Subsection",ExpressionUUID->"021c6fa3-05c7-4de7-936f-d2b0da044428"],
+Cell[CellGroupData[{
+Cell[2855805, 48109, 233, 4, 28, "Input",ExpressionUUID->"f927beab-cee9-4c82-bfa6-21c0f935b657"],
+Cell[2856041, 48115, 330, 9, 48, "Output",ExpressionUUID->"f47a9d6c-7430-4b26-9feb-cf53f7863920"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2856408, 48129, 219, 3, 28, "Input",ExpressionUUID->"ade5345c-8176-406c-9a8b-400042828f06"],
+Cell[2856630, 48134, 1961, 32, 128, "Output",ExpressionUUID->"b05a4d3b-adf2-4f4f-b3e5-9fd1d32cd5a9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2858628, 48171, 271, 5, 28, "Input",ExpressionUUID->"b1a098d7-4231-4e61-bf53-0f35aefbb2b8"],
+Cell[2858902, 48178, 262, 9, 71, "Output",ExpressionUUID->"6b558d89-6173-4b78-976c-1f672b7c8a24"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2859201, 48192, 266, 5, 28, "Input",ExpressionUUID->"292a6100-3f50-49a3-a185-7c6ba5f1fe2d"],
+Cell[2859470, 48199, 220, 5, 47, "Output",ExpressionUUID->"9e319bdc-799d-450d-ba4a-570431857008"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2859727, 48209, 1033, 25, 124, "Input",ExpressionUUID->"8736d625-fdee-491c-8ed2-3e214ccfe028"],
+Cell[2860763, 48236, 428, 5, 52, "Output",ExpressionUUID->"ad46c112-5d34-4d8f-b414-0c1949c61373"]
+}, Open  ]],
+Cell[2861206, 48244, 462, 7, 67, "Input",ExpressionUUID->"1bbc951a-2919-4c08-a75d-2410516550fb"],
+Cell[CellGroupData[{
+Cell[2861693, 48255, 101, 0, 32, "Item",ExpressionUUID->"49dfc9ef-37ad-4725-a35e-c31407d4ba5f"],
+Cell[2861797, 48257, 111, 0, 25, "ItemParagraph",ExpressionUUID->"bdde9d30-716d-4fab-9836-ad4b8f449dde"],
+Cell[CellGroupData[{
+Cell[2861933, 48261, 98, 0, 26, "Subitem",ExpressionUUID->"01861702-9093-4275-8ad5-aaa0af580d0f"],
+Cell[2862034, 48263, 114, 0, 23, "SubitemParagraph",ExpressionUUID->"edb91bb3-c712-49bd-8132-e984322e44cc"],
+Cell[CellGroupData[{
+Cell[2862173, 48267, 101, 0, 25, "Subsubitem",ExpressionUUID->"bb7e752b-e132-4f47-856c-37023037ad90"],
+Cell[2862277, 48269, 117, 0, 22, "SubsubitemParagraph",ExpressionUUID->"57289262-2988-40dc-a43b-66edea65ceea"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-Cell[2851420, 47983, 147, 2, 35, "Text",ExpressionUUID->"9089ae68-4d04-4e47-9c4c-2f632e6d29c7"],
-Cell[2851570, 47987, 242, 7, 39, "DisplayFormula",ExpressionUUID->"fa65abd5-fbd0-4ec3-8c2e-3d5cf4a339ee"],
-Cell[2851815, 47996, 276, 7, 35, "Text",ExpressionUUID->"9e6c2a0e-b0f0-4224-93c1-de162c0a74d8"],
+Cell[2862433, 48274, 147, 2, 35, "Text",ExpressionUUID->"9089ae68-4d04-4e47-9c4c-2f632e6d29c7"],
+Cell[2862583, 48278, 242, 7, 39, "DisplayFormula",ExpressionUUID->"fa65abd5-fbd0-4ec3-8c2e-3d5cf4a339ee"],
+Cell[2862828, 48287, 276, 7, 35, "Text",ExpressionUUID->"9e6c2a0e-b0f0-4224-93c1-de162c0a74d8"],
 Cell[CellGroupData[{
-Cell[2852116, 48007, 109, 0, 32, "ItemNumbered",ExpressionUUID->"f9572304-cb91-482c-9107-f34bc8b33ede"],
-Cell[2852228, 48009, 111, 0, 25, "ItemParagraph",ExpressionUUID->"56813a5b-053f-48e6-8903-6b06430640ea"],
+Cell[2863129, 48298, 109, 0, 32, "ItemNumbered",ExpressionUUID->"f9572304-cb91-482c-9107-f34bc8b33ede"],
+Cell[2863241, 48300, 111, 0, 25, "ItemParagraph",ExpressionUUID->"56813a5b-053f-48e6-8903-6b06430640ea"],
 Cell[CellGroupData[{
-Cell[2852364, 48013, 115, 0, 26, "SubitemNumbered",ExpressionUUID->"08fa595c-87dc-4607-b8e0-1ed778296eee"],
-Cell[2852482, 48015, 114, 0, 23, "SubitemParagraph",ExpressionUUID->"968a4a10-6203-495c-8a2c-0a842d1a9f3c"],
+Cell[2863377, 48304, 115, 0, 26, "SubitemNumbered",ExpressionUUID->"08fa595c-87dc-4607-b8e0-1ed778296eee"],
+Cell[2863495, 48306, 114, 0, 23, "SubitemParagraph",ExpressionUUID->"968a4a10-6203-495c-8a2c-0a842d1a9f3c"],
 Cell[CellGroupData[{
-Cell[2852621, 48019, 109, 0, 25, "SubsubitemNumbered",ExpressionUUID->"0d2cf8ee-e622-4584-a666-500661073d15"],
-Cell[2852733, 48021, 117, 0, 22, "SubsubitemParagraph",ExpressionUUID->"8d4cee56-0e69-4946-bbe8-942a411c9339"]
+Cell[2863634, 48310, 109, 0, 25, "SubsubitemNumbered",ExpressionUUID->"0d2cf8ee-e622-4584-a666-500661073d15"],
+Cell[2863746, 48312, 117, 0, 22, "SubsubitemParagraph",ExpressionUUID->"8d4cee56-0e69-4946-bbe8-942a411c9339"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-Cell[2852889, 48026, 156, 2, 35, "Text",ExpressionUUID->"41f5704e-1528-4dfe-be0c-b763c44c70db"],
-Cell[2853048, 48030, 250, 7, 39, "DisplayFormulaNumbered",ExpressionUUID->"01ad6ce7-dd67-432d-b15e-6ec003519d15"],
-Cell[2853301, 48039, 130, 0, 35, "Text",ExpressionUUID->"2ace690d-d3a0-48d4-848d-86060ea76ae2"],
-Cell[2853434, 48041, 159, 3, 50, "Code",ExpressionUUID->"c32449be-29ba-4059-be91-9252d38e2813"],
-Cell[2853596, 48046, 142, 2, 70, "Text",ExpressionUUID->"3ff4ed40-8f19-449c-97e0-8be01a6bf5eb"],
-Cell[2853741, 48050, 296, 11, 70, "Program",ExpressionUUID->"3ed102e0-5c2a-4eb8-a108-27715385feb6"]
+Cell[2863902, 48317, 156, 2, 35, "Text",ExpressionUUID->"41f5704e-1528-4dfe-be0c-b763c44c70db"],
+Cell[2864061, 48321, 250, 7, 39, "DisplayFormulaNumbered",ExpressionUUID->"01ad6ce7-dd67-432d-b15e-6ec003519d15"],
+Cell[2864314, 48330, 130, 0, 35, "Text",ExpressionUUID->"2ace690d-d3a0-48d4-848d-86060ea76ae2"],
+Cell[2864447, 48332, 159, 3, 50, "Code",ExpressionUUID->"c32449be-29ba-4059-be91-9252d38e2813"],
+Cell[2864609, 48337, 142, 2, 35, "Text",ExpressionUUID->"3ff4ed40-8f19-449c-97e0-8be01a6bf5eb"],
+Cell[2864754, 48341, 296, 11, 70, "Program",ExpressionUUID->"3ed102e0-5c2a-4eb8-a108-27715385feb6"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
