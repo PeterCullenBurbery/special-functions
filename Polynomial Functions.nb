@@ -10,7 +10,7 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2884849,      48800]
+NotebookDataLength[   2884850,      48800]
 NotebookOptionsPosition[   2874543,      48615]
 NotebookOutlinePosition[   2874944,      48631]
 CellTagsIndexPosition[   2874901,      48628]
@@ -48613,7 +48613,7 @@ DLLEXPORT int fun(WolframLibraryData libData, mreal A1, mreal *Res)
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 580.8},
+WindowSize->{1141.2, 579.6},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
@@ -48764,7 +48764,7 @@ Cell[CellGroupData[{
 Cell[2869482, 48469, 167, 3, 54, "Subsection",ExpressionUUID->"2a41738b-2222-4944-9df8-7623f14ff754"],
 Cell[CellGroupData[{
 Cell[2869674, 48476, 1031, 25, 124, "Input",ExpressionUUID->"c9a28cfd-6c44-4bec-a9ad-db55277e61c3"],
-Cell[2870708, 48503, 401, 5, 52, "Output",ExpressionUUID->"a9c4ac71-5945-4380-bd4e-a6b86ad1be65"]
+Cell[2870708, 48503, 401, 5, 101, "Output",ExpressionUUID->"a9c4ac71-5945-4380-bd4e-a6b86ad1be65"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2871146, 48513, 101, 0, 32, "Item",ExpressionUUID->"49dfc9ef-37ad-4725-a35e-c31407d4ba5f"],
