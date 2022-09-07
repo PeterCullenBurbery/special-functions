@@ -10,18 +10,26 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1098,         39]
-NotebookOptionsPosition[       742,         25]
-NotebookOutlinePosition[      1148,         41]
-CellTagsIndexPosition[      1105,         38]
+NotebookDataLength[      1435,         50]
+NotebookOptionsPosition[       953,         33]
+NotebookOutlinePosition[      1359,         49]
+CellTagsIndexPosition[      1316,         46]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell["List of Special Functions to plot", "Title",
+
+Cell[CellGroupData[{
+Cell["List of Mathematical Functions to plot", "Title",
  CellChangeTimes->{{3.8715672525458007`*^9, 
-  3.8715672588311405`*^9}},ExpressionUUID->"70501b4b-20de-49eb-bf4a-\
-b84123a9a989"]
+  3.8715672889118795`*^9}},ExpressionUUID->"70501b4b-20de-49eb-bf4a-\
+b84123a9a989"],
+
+Cell["Elementary Functions", "Section",
+ CellChangeTimes->{{3.8715672815515156`*^9, 
+  3.8715672953277645`*^9}},ExpressionUUID->"eea4df71-d945-4269-9891-\
+b20f224f1652"]
+}, Open  ]]
 },
 WindowSize->{1440., 747.75},
 WindowMargins->{{-6, Automatic}, {Automatic, -6}},
@@ -40,10 +48,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 180, 3, 98, "Title",ExpressionUUID->"70501b4b-20de-49eb-bf4a-b84123a9a989"]
+Cell[CellGroupData[{
+Cell[580, 22, 185, 3, 98, "Title",ExpressionUUID->"70501b4b-20de-49eb-bf4a-b84123a9a989"],
+Cell[768, 27, 169, 3, 67, "Section",ExpressionUUID->"eea4df71-d945-4269-9891-b20f224f1652"]
+}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
