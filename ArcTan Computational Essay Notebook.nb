@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    671538,      11765]
-NotebookOptionsPosition[    555512,       9539]
-NotebookOutlinePosition[    668992,      11708]
-CellTagsIndexPosition[    668636,      11695]
+NotebookDataLength[    672856,      11794]
+NotebookOptionsPosition[    556481,       9562]
+NotebookOutlinePosition[    669961,      11731]
+CellTagsIndexPosition[    669605,      11718]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -9529,6 +9529,29 @@ cpe0kWCgUJpsR9LsQIzELZ84A6Ev/7qZrsjEd81z0i9vUqAi62W7eVHICdty
  CellID->409721729,ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da"]
 }, Open  ]],
 
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SpecialFunctionFileName", "[", "function_", "]"}], ":=", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+     RowBox[{
+      RowBox[{"\"\<Plot of\>\"", "<>", "function"}], 
+      "\"\<in the complex plane from -2-2i to 2+2i with colors created with \
+Mathematica 13.1 function ComplexPlot3D.svg\>\""}]}], "}"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8715523316483693`*^9, 3.871552404670638*^9}},
+ CellLabel->"In[28]:=",
+ CellID->169993225,ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304"],
+
+Cell[BoxData["SpecialFunctionFileName"], "Input",
+ CellChangeTimes->{{3.8715524121222105`*^9, 3.871552413184432*^9}},
+ CellID->549532127,ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8715523954625745`*^9, 3.871552398749713*^9}},
+ CellID->380280674,ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f"],
+
 Cell["XXXX", "Item",
  CellID->316654537,ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c"],
 
@@ -11694,15 +11717,15 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Examples", 666912, 11653},
- {"Your Essay Title", 667098, 11657},
- {"AuthorName", 667278, 11661},
- {"Abstract", 667437, 11665},
- {"TemplateCell", 667618, 11669},
- {"SectionHeader", 667800, 11673},
- {"ExampleTopicSentence", 667976, 11677},
- {"ExampleCodeText", 668151, 11681},
- {"ExampleInput", 668321, 11685}
+ {"Examples", 667881, 11676},
+ {"Your Essay Title", 668067, 11680},
+ {"AuthorName", 668247, 11684},
+ {"Abstract", 668406, 11688},
+ {"TemplateCell", 668587, 11692},
+ {"SectionHeader", 668769, 11696},
+ {"ExampleTopicSentence", 668945, 11700},
+ {"ExampleCodeText", 669120, 11704},
+ {"ExampleInput", 669290, 11708}
  }
 *)
 (*NotebookFileOutline
@@ -11758,12 +11781,18 @@ Cell[268910, 4651, 147097, 2498, 1316, "Output",ExpressionUUID->"27a0b7ff-79b6-4
 Cell[CellGroupData[{
 Cell[416044, 7154, 273, 5, 28, "Input",ExpressionUUID->"2d9b36d7-efe8-4bba-9067-5f553cb6c166",
  CellID->64871598],
-Cell[416320, 7161, 138956, 2367, 1338, "Output",ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da",
+Cell[416320, 7161, 138956, 2367, 1315, "Output",ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da",
  CellID->409721729]
 }, Open  ]],
-Cell[555291, 9531, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
+Cell[555291, 9531, 599, 13, 48, "Input",ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304",
+ CellID->169993225],
+Cell[555893, 9546, 192, 2, 28, "Input",ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac",
+ CellID->549532127],
+Cell[556088, 9550, 169, 2, 28, "Input",ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f",
+ CellID->380280674],
+Cell[556260, 9554, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
  CellID->316654537],
-Cell[555389, 9534, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
+Cell[556358, 9557, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
  CellID->316654538]
 }, Open  ]]
 }, Open  ]]
