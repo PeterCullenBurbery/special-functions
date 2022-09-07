@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     31211,        907]
-NotebookOptionsPosition[     20096,        677]
-NotebookOutlinePosition[     20506,        693]
-CellTagsIndexPosition[     20463,        690]
+NotebookDataLength[     34226,        991]
+NotebookOptionsPosition[     22040,        740]
+NotebookOutlinePosition[     22450,        756]
+CellTagsIndexPosition[     22407,        753]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -670,6 +670,69 @@ Cell[BoxData[
  CellChangeTimes->{3.8715678252774925`*^9},
  CellLabel->"Out[28]=",ExpressionUUID->"04c703c7-53b0-4760-894c-c84a758ff1f7"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperbolic Cotangent Inverse", "Subsubsection",
+ CellChangeTimes->{{3.8715678354074545`*^9, 
+  3.8715678415029793`*^9}},ExpressionUUID->"f2e5c37a-2b3b-4b72-a7d4-\
+b4f60a1606b7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ArcCoth", "[", "z", "]"}]], "Input",
+ CellChangeTimes->{{3.871567843218732*^9, 3.871567846110896*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"26729b0d-a3fc-4db6-b6f2-c08fa0f3b718"],
+
+Cell[BoxData[
+ RowBox[{"ArcCoth", "[", "z", "]"}]], "Output",
+ CellChangeTimes->{3.8715678464125357`*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"193d07cb-3ca9-43d6-8aef-d9dd363816be"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperbolic Cosecant Inverse", "Subsubsection",
+ CellChangeTimes->{{3.8715678484790087`*^9, 
+  3.8715678558226767`*^9}},ExpressionUUID->"292c3367-adfe-4dc8-bf44-\
+8a12a0123e5d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ArcCsch", "[", "z", "]"}]], "Input",
+ CellChangeTimes->{{3.8715678574086657`*^9, 3.871567861184188*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"9b8781b4-ca39-4abd-a5c4-26b9fc184d09"],
+
+Cell[BoxData[
+ RowBox[{"ArcCsch", "[", "z", "]"}]], "Output",
+ CellChangeTimes->{3.8715678615202904`*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"32ca2a7e-060f-4c5f-b34c-620c2f1c623e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperbolic Secant Inverse", "Subsubsection",
+ CellChangeTimes->{{3.87156786407911*^9, 
+  3.871567869775161*^9}},ExpressionUUID->"1d1dc3c8-ec56-4df0-9805-\
+3989123952a7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ArcSech", "[", "z", "]"}]], "Input",
+ CellChangeTimes->{{3.8715678709786143`*^9, 3.8715678735512123`*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"06e6e128-e9ad-467d-a6eb-4f1ae1d1e3d6"],
+
+Cell[BoxData[
+ RowBox[{"ArcSech", "[", "z", "]"}]], "Output",
+ CellChangeTimes->{3.8715678739124837`*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"b4354db5-6f27-4540-8009-beb9fea4a703"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -904,6 +967,27 @@ Cell[19432, 655, 181, 3, 45, "Subsubsection",ExpressionUUID->"e5397de1-d230-4bbd
 Cell[CellGroupData[{
 Cell[19638, 662, 207, 3, 28, "Input",ExpressionUUID->"7a679746-ec20-4ba9-a818-f7dc3be1a1a0"],
 Cell[19848, 667, 184, 3, 32, "Output",ExpressionUUID->"04c703c7-53b0-4760-894c-c84a758ff1f7"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20081, 676, 183, 3, 45, "Subsubsection",ExpressionUUID->"f2e5c37a-2b3b-4b72-a7d4-b4f60a1606b7"],
+Cell[CellGroupData[{
+Cell[20289, 683, 205, 3, 28, "Input",ExpressionUUID->"26729b0d-a3fc-4db6-b6f2-c08fa0f3b718"],
+Cell[20497, 688, 184, 3, 32, "Output",ExpressionUUID->"193d07cb-3ca9-43d6-8aef-d9dd363816be"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20730, 697, 182, 3, 45, "Subsubsection",ExpressionUUID->"292c3367-adfe-4dc8-bf44-8a12a0123e5d"],
+Cell[CellGroupData[{
+Cell[20937, 704, 207, 3, 28, "Input",ExpressionUUID->"9b8781b4-ca39-4abd-a5c4-26b9fc184d09"],
+Cell[21147, 709, 184, 3, 32, "Output",ExpressionUUID->"32ca2a7e-060f-4c5f-b34c-620c2f1c623e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21380, 718, 175, 3, 45, "Subsubsection",ExpressionUUID->"1d1dc3c8-ec56-4df0-9805-3989123952a7"],
+Cell[CellGroupData[{
+Cell[21580, 725, 209, 3, 28, "Input",ExpressionUUID->"06e6e128-e9ad-467d-a6eb-4f1ae1d1e3d6"],
+Cell[21792, 730, 184, 3, 32, "Output",ExpressionUUID->"b4354db5-6f27-4540-8009-beb9fea4a703"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
