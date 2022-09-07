@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    674529,      11834]
-NotebookOptionsPosition[    557774,       9594]
-NotebookOutlinePosition[    671254,      11763]
-CellTagsIndexPosition[    670898,      11750]
+NotebookDataLength[    677743,      11913]
+NotebookOptionsPosition[    560312,       9657]
+NotebookOutlinePosition[    673792,      11826]
+CellTagsIndexPosition[    673436,      11813]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -9539,10 +9539,10 @@ Cell[BoxData[
      RowBox[{
      "\"\<Plot of \>\"", "<>", "function", "<>", 
       "\"\< in the complex plane from -2-2i to 2+2i with colors created with \
-Mathematica 13.1 function ComplexPlot3D.svg\>\""}]}], "}"}], "]"}]}]], "Input",
+Mathematica function ComplexPlot3D.svg\>\""}]}], "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8715523316483693`*^9, 3.871552404670638*^9}, {
-  3.871552448173503*^9, 3.8715524808810167`*^9}},
- CellLabel->"In[35]:=",
+   3.871552448173503*^9, 3.8715524808810167`*^9}, 3.8715526578316016`*^9},
+ CellLabel->"In[43]:=",
  CellID->169993225,ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304"],
 
 Cell[CellGroupData[{
@@ -9575,14 +9575,77 @@ Cell[BoxData[
  CellLabel->"In[37]:=",
  CellID->1609179,ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
- RowBox[{"ExportSpecialFunction", "[", "]"}]], "Input",
- CellChangeTimes->{{3.871552530138924*^9, 3.871552533592371*^9}},
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   RowBox[{"ArcTan", "[", "z", "]"}], ",", 
+   "\"\<the arctangent function arctan(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.871552530138924*^9, 3.8715525613078375`*^9}},
+ CellLabel->"In[44]:=",
  CellID->47305941,ExpressionUUID->"42aea9dd-c826-41ea-a200-bc18533b3ea4"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.8715523954625745`*^9, 3.871552398749713*^9}},
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of the arctangent function arctan(z) in the complex plane \
+from -2-2i to 2+2i with colors created with Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715525635902815`*^9, 3.8715526761753225`*^9},
+ CellLabel->"Out[44]=",
+ CellID->18549926,ExpressionUUID->"b10e47aa-b03d-4664-825f-6f79c754d362"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\<C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-functions\\\\\
+Plot of the arctangent function arctan(z) in the complex plane from -2-2i to \
+2+2i with colors created with Mathematica 13.1 function \
+ComplexPlot3D.svg\>\"", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[40]:=",
+ CellID->9096334,ExpressionUUID->"a2d39fdd-7e7e-4eb9-9e77-88c5f1eccf76"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   RowBox[{"ArcTan", "[", 
+    SuperscriptBox["z", "2"], "]"}], ",", 
+   "\"\<the arctangent function of z^2 arctan(z^2)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715523954625745`*^9, 3.871552398749713*^9}, {
+  3.8715526201272874`*^9, 3.871552633083992*^9}},
+ CellLabel->"In[46]:=",
  CellID->380280674,ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of the arctangent function of z^2 arctan(z^2) in the \
+complex plane from -2-2i to 2+2i with colors created with Mathematica \
+function ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.871552635240181*^9, 3.8715526830022297`*^9},
+ CellLabel->"Out[46]=",
+ CellID->67324985,ExpressionUUID->"eb32b75d-272f-4c2d-a777-f253d919adbd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   RowBox[{"Abs", "[", "z", "]"}], ",", 
+   "\"\<the absolute value function abs(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715527055008273`*^9, 3.871552736014105*^9}},
+ CellLabel->"In[47]:=",
+ CellID->128556418,ExpressionUUID->"21d61584-e969-4e69-9588-4ea6c0aa94ce"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\Plot of the absolute value function abs(z) in the complex plane \
+from -2-2i to 2+2i with colors created with Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715527384051046`*^9},
+ CellLabel->"Out[47]=",
+ CellID->1690097,ExpressionUUID->"55b785a7-5fce-4323-911e-8093185098ea"]
+}, Open  ]],
 
 Cell["XXXX", "Item",
  CellID->316654537,ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c"],
@@ -11706,34 +11769,14 @@ ExpressionUUID->"e0fd4ab0-86e1-4deb-91f3-e4038de9feaf"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Examples"->{
-  Cell[580, 22, 142, 2, 98, "Title",ExpressionUUID->"1d92d1b8-f6d7-48ed-8825-cd049ebbaf36",
-   CellTags->{"Examples", "Your Essay Title"},
-   CellID->805710577]},
- "Your Essay Title"->{
-  Cell[580, 22, 142, 2, 98, "Title",ExpressionUUID->"1d92d1b8-f6d7-48ed-8825-cd049ebbaf36",
-   CellTags->{"Examples", "Your Essay Title"},
-   CellID->805710577]},
- "AuthorName"->{
-  Cell[725, 26, 181, 4, 30, "Author",ExpressionUUID->"3a631b5a-3636-4c6d-8965-482ae9171f2c",
-   CellTags->"AuthorName",
-   CellID->960727095]},
  "Abstract"->{
   Cell[909, 32, 144, 2, 62, "Abstract",ExpressionUUID->"2ac58def-5955-4744-85c7-434e15df125e",
    CellTags->{"Abstract", "TemplateCell"},
    CellID->587432573]},
- "TemplateCell"->{
-  Cell[909, 32, 144, 2, 62, "Abstract",ExpressionUUID->"2ac58def-5955-4744-85c7-434e15df125e",
-   CellTags->{"Abstract", "TemplateCell"},
-   CellID->587432573]},
- "SectionHeader"->{
-  Cell[1078, 38, 129, 2, 67, "Section",ExpressionUUID->"34c50aa5-39dc-40c2-9e96-2d752d36a940",
-   CellTags->"SectionHeader",
-   CellID->453852445]},
- "ExampleTopicSentence"->{
-  Cell[1210, 42, 130, 2, 35, "Text",ExpressionUUID->"59801345-6d3c-49da-94f6-ef747999241f",
-   CellTags->"ExampleTopicSentence",
-   CellID->816667160]},
+ "AuthorName"->{
+  Cell[725, 26, 181, 4, 30, "Author",ExpressionUUID->"3a631b5a-3636-4c6d-8965-482ae9171f2c",
+   CellTags->"AuthorName",
+   CellID->960727095]},
  "ExampleCodeText"->{
   Cell[1343, 46, 129, 2, 38, "CodeText",ExpressionUUID->"b8f16d1a-9cf8-4c1c-995b-1b11a6b7b3c0",
    CellTags->"ExampleCodeText",
@@ -11744,20 +11787,40 @@ CellTagsIndex->{
    CellID->844129532],
   Cell[1759, 59, 304, 5, 32, "Output",ExpressionUUID->"e9246f4c-01a7-4152-a3eb-1620670cfb10",
    CellTags->"ExampleInput",
-   CellID->286680771]}
+   CellID->286680771]},
+ "Examples"->{
+  Cell[580, 22, 142, 2, 98, "Title",ExpressionUUID->"1d92d1b8-f6d7-48ed-8825-cd049ebbaf36",
+   CellTags->{"Examples", "Your Essay Title"},
+   CellID->805710577]},
+ "ExampleTopicSentence"->{
+  Cell[1210, 42, 130, 2, 35, "Text",ExpressionUUID->"59801345-6d3c-49da-94f6-ef747999241f",
+   CellTags->"ExampleTopicSentence",
+   CellID->816667160]},
+ "SectionHeader"->{
+  Cell[1078, 38, 129, 2, 67, "Section",ExpressionUUID->"34c50aa5-39dc-40c2-9e96-2d752d36a940",
+   CellTags->"SectionHeader",
+   CellID->453852445]},
+ "TemplateCell"->{
+  Cell[909, 32, 144, 2, 62, "Abstract",ExpressionUUID->"2ac58def-5955-4744-85c7-434e15df125e",
+   CellTags->{"Abstract", "TemplateCell"},
+   CellID->587432573]},
+ "Your Essay Title"->{
+  Cell[580, 22, 142, 2, 98, "Title",ExpressionUUID->"1d92d1b8-f6d7-48ed-8825-cd049ebbaf36",
+   CellTags->{"Examples", "Your Essay Title"},
+   CellID->805710577]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Examples", 669174, 11708},
- {"Your Essay Title", 669360, 11712},
- {"AuthorName", 669540, 11716},
- {"Abstract", 669699, 11720},
- {"TemplateCell", 669880, 11724},
- {"SectionHeader", 670062, 11728},
- {"ExampleTopicSentence", 670238, 11732},
- {"ExampleCodeText", 670413, 11736},
- {"ExampleInput", 670583, 11740}
+ {"Abstract", 671712, 11771},
+ {"AuthorName", 671891, 11775},
+ {"ExampleCodeText", 672057, 11779},
+ {"ExampleInput", 672227, 11783},
+ {"Examples", 672534, 11790},
+ {"ExampleTopicSentence", 672724, 11794},
+ {"SectionHeader", 672897, 11798},
+ {"TemplateCell", 673065, 11802},
+ {"Your Essay Title", 673250, 11806}
  }
 *)
 (*NotebookFileOutline
@@ -11816,23 +11879,39 @@ Cell[416044, 7154, 273, 5, 28, "Input",ExpressionUUID->"2d9b36d7-efe8-4bba-9067-
 Cell[416320, 7161, 138956, 2367, 1315, "Output",ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da",
  CellID->409721729]
 }, Open  ]],
-Cell[555291, 9531, 647, 14, 48, "Input",ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304",
+Cell[555291, 9531, 667, 14, 48, "Input",ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304",
  CellID->169993225],
 Cell[CellGroupData[{
-Cell[555963, 9549, 286, 5, 28, "Input",ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac",
+Cell[555983, 9549, 286, 5, 28, "Input",ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac",
  CellID->549532127],
-Cell[556252, 9556, 429, 6, 52, "Output",ExpressionUUID->"1b84bb1f-2b5c-4d59-b3ff-089f4ae966b1",
+Cell[556272, 9556, 429, 6, 52, "Output",ExpressionUUID->"1b84bb1f-2b5c-4d59-b3ff-089f4ae966b1",
  CellID->499605591]
 }, Open  ]],
-Cell[556696, 9565, 470, 10, 28, "Input",ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57",
+Cell[556716, 9565, 470, 10, 28, "Input",ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57",
  CellID->1609179],
-Cell[557169, 9577, 209, 3, 28, "Input",ExpressionUUID->"42aea9dd-c826-41ea-a200-bc18533b3ea4",
+Cell[CellGroupData[{
+Cell[557211, 9579, 341, 7, 28, "Input",ExpressionUUID->"42aea9dd-c826-41ea-a200-bc18533b3ea4",
  CellID->47305941],
-Cell[557381, 9582, 169, 2, 28, "Input",ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f",
+Cell[557555, 9588, 423, 6, 52, "Output",ExpressionUUID->"b10e47aa-b03d-4664-825f-6f79c754d362",
+ CellID->18549926]
+}, Open  ]],
+Cell[557993, 9597, 418, 8, 67, "Input",ExpressionUUID->"a2d39fdd-7e7e-4eb9-9e77-88c5f1eccf76",
+ CellID->9096334],
+Cell[CellGroupData[{
+Cell[558436, 9609, 428, 9, 31, "Input",ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f",
  CellID->380280674],
-Cell[557553, 9586, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
+Cell[558867, 9620, 430, 6, 52, "Output",ExpressionUUID->"eb32b75d-272f-4c2d-a777-f253d919adbd",
+ CellID->67324985]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[559334, 9631, 340, 7, 28, "Input",ExpressionUUID->"21d61584-e969-4e69-9588-4ea6c0aa94ce",
+ CellID->128556418],
+Cell[559677, 9640, 399, 6, 52, "Output",ExpressionUUID->"55b785a7-5fce-4323-911e-8093185098ea",
+ CellID->1690097]
+}, Open  ]],
+Cell[560091, 9649, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
  CellID->316654537],
-Cell[557651, 9589, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
+Cell[560189, 9652, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
  CellID->316654538]
 }, Open  ]]
 }, Open  ]]
