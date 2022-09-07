@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    856095,      14994]
-NotebookOptionsPosition[    736796,      12700]
-NotebookOutlinePosition[    850341,      14869]
-CellTagsIndexPosition[    849985,      14856]
+NotebookDataLength[    875269,      15482]
+NotebookOptionsPosition[    753524,      13132]
+NotebookOutlinePosition[    867069,      15301]
+CellTagsIndexPosition[    866713,      15288]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4636,7 +4636,7 @@ Cell[BoxData[
     RowBox[{"PlotLegends", "\[Rule]", "Automatic"}], ",", 
     RowBox[{"ImageSize", "->", "Full"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8715522556248503`*^9, 3.8715523021274624`*^9}},
- CellLabel->"In[24]:=",
+ CellLabel->"In[1]:=",
  CellID->187381358,ExpressionUUID->"3f1b9ff3-bdfe-4d8a-8be2-ba17e0d3e4de"],
 
 Cell[CellGroupData[{
@@ -9537,12 +9537,13 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"NotebookDirectory", "[", "]"}], ",", 
      RowBox[{
-     "\"\<Plot of \>\"", "<>", "function", "<>", 
+     "\"\<A plot of \>\"", "<>", "function", "<>", 
       "\"\< in the complex plane from -2-2i to 2+2i with colors created with \
-Mathematica function ComplexPlot3D.svg\>\""}]}], "}"}], "]"}]}]], "Input",
+the Mathematica function ComplexPlot3D.svg\>\""}]}], "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8715523316483693`*^9, 3.871552404670638*^9}, {
-   3.871552448173503*^9, 3.8715524808810167`*^9}, 3.8715526578316016`*^9},
- CellLabel->"In[43]:=",
+   3.871552448173503*^9, 3.8715524808810167`*^9}, 3.8715526578316016`*^9, {
+   3.8715539712552996`*^9, 3.8715539925499096`*^9}},
+ CellLabel->"In[2]:=",
  CellID->169993225,ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304"],
 
 Cell[CellGroupData[{
@@ -9572,7 +9573,7 @@ Cell[BoxData[
     RowBox[{"SpecialFunctionFileName", "[", "string", "]"}], ",", 
     RowBox[{"PetersComplexPlot3D", "[", "function", "]"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.871552497471306*^9, 3.8715525291703978`*^9}},
- CellLabel->"In[37]:=",
+ CellLabel->"In[3]:=",
  CellID->1609179,ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57"],
 
 Cell[CellGroupData[{
@@ -9655,7 +9656,14 @@ Plot of the absolute value function abs(z) in the complex plane from -2-2i to \
   "]"}]], "Input",
  NumberMarks->False,
  CellLabel->"In[48]:=",
- CellID->490880190,ExpressionUUID->"5a691678-44f8-47f4-9614-130282567c98"],
+ CellID->490880190,ExpressionUUID->"5a691678-44f8-47f4-9614-130282567c98"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Complex Argument", "Section",
+ CellChangeTimes->{{3.8715539049340715`*^9, 3.871553908102107*^9}},
+ CellID->98386187,ExpressionUUID->"4cb75df3-b213-4a52-ae4c-a0909759cf27"],
 
 Cell[CellGroupData[{
 
@@ -9675,7 +9683,14 @@ ComplexPlot3D.svg\"\>"], "Output",
  CellChangeTimes->{3.8715528610605593`*^9},
  CellLabel->"Out[49]=",
  CellID->84864194,ExpressionUUID->"2248155a-d626-4508-aca4-f908f156824f"]
+}, Open  ]]
 }, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Arithmetic Geometric Mean", "Section",
+ CellChangeTimes->{{3.8715537647815866`*^9, 3.8715537682699537`*^9}},
+ CellID->133329627,ExpressionUUID->"7cae56f7-d7e5-40b4-b650-76b13bdd98ad"],
 
 Cell[CellGroupData[{
 
@@ -12686,6 +12701,423 @@ ComplexPlot3D.svg\"\>"], "Output",
  CellID->267427401,ExpressionUUID->"9e89398f-037b-4cb5-9152-8f41e245df2c"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "PetersComplexPlot3D"}]], "Input",
+ CellChangeTimes->{{3.8715537309633365`*^9, 3.8715537343402367`*^9}},
+ CellLabel->"In[59]:=",
+ CellID->280577156,ExpressionUUID->"8e64ca37-8752-4e52-bebd-4773aee68ed4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = True, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Global`PetersComplexPlot3D\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[
+           TagBox[GridBox[{
+              {
+               StyleBox[
+                TagBox[
+                 TooltipBox[
+                  StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+                   StripOnInput->False],
+                  "\"Definitions\"",
+                  TooltipStyle->"TextStyling"],
+                 Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
+                StripOnInput->False]},
+              {
+               TemplateBox[{"\"\[ThinSpace]\"", 
+                 GridBox[{{
+                    RowBox[{
+                    RowBox[{"PetersComplexPlot3D", "[", "function_", "]"}], 
+                    ":=", 
+                    RowBox[{"ComplexPlot3D", "[", 
+                    RowBox[{"function", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"z", ",", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["1", "2"]}], "-", "\[ImaginaryI]"}], ",", 
+                    RowBox[{
+                    FractionBox["1", "2"], "+", "\[ImaginaryI]"}]}], "}"}], 
+                    ",", 
+                    RowBox[{"PlotLegends", "\[Rule]", "Automatic"}], ",", 
+                    RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]}]}, {
+                   " "}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  DefaultBaseStyle -> "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+                "RowDefault"]}
+             },
+             DefaultBaseStyle->"Column",
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Column"],
+           FrameMargins->{{6, 0}, {3, 6}}], "\<\"\"\>"},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"Global`PetersComplexPlot3D\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Global`PetersComplexPlot3D\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> "Global`PetersComplexPlot3D", 
+    "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
+    "DownValues" -> 
+    Information`InformationValueForm[
+     DownValues, $CellContext`PetersComplexPlot3D, \
+{$CellContext`PetersComplexPlot3D[
+         Pattern[$CellContext`function, 
+          Blank[]]] :> 
+       ComplexPlot3D[$CellContext`function, {$CellContext`z, (-1)/2 - I, 1/2 + 
+          I}, PlotLegends -> Automatic, ImageSize -> Full]}], "SubValues" -> 
+    None, "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {}, "FullName" -> 
+    "Global`PetersComplexPlot3D"|>, False]]], "Output",
+ CellChangeTimes->{3.8715537350675197`*^9},
+ CellLabel->"Out[59]=",
+ CellID->66272385,ExpressionUUID->"4a28fa8d-34cc-41e1-9205-0f11b59d9b66"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Cosh", "[", "z", "]"}], "z"], ",", 
+   "\"\<the Coshc function Coshc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715543159078493`*^9, 3.8715543322948637`*^9}, 
+   3.8715546429747066`*^9},
+ CellID->216759106,ExpressionUUID->"136d3f27-7d6d-499d-8960-295b96b14145"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the Coshc function Cosh(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715543345505486`*^9},
+ CellLabel->"Out[62]=",
+ CellID->446493729,ExpressionUUID->"be5ecd60-4939-4f56-9b67-af5e1518e80e"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  "\"\<C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-functions\\\\\
+A plot of the Coshc function Cosh(z) in the complex plane from -2-2i to 2+2i \
+with colors created with the Mathematica function ComplexPlot3D.svg\>\"", 
+  "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[63]:=",
+ CellID->637142524,ExpressionUUID->"cdf4ad9a-60b2-4f33-832d-e36bebf22dc6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Sinh", "[", "z", "]"}], "z"], ",", 
+   "\"\<the Sinhc function Sinhc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.871554626837691*^9, 3.871554639128112*^9}},
+ CellLabel->"In[64]:=",
+ CellID->506662744,ExpressionUUID->"aa1ed776-3245-43fe-856a-6c67a181b0be"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the Sinhc function Sinhc(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715546489753714`*^9},
+ CellLabel->"Out[64]=",
+ CellID->616433555,ExpressionUUID->"c0bc7e79-e484-42b9-9ec9-b293ad94bf6f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Tanh", "[", "z", "]"}], "z"], ",", 
+   "\"\<the tanhc function Tanhc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715552096756926`*^9, 3.8715552518376603`*^9}},
+ CellLabel->"In[65]:=",
+ CellID->609576034,ExpressionUUID->"ec6f6546-fa34-404b-bc7a-52c049272c62"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the tanhc function Tanhc(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715552580745955`*^9},
+ CellLabel->"Out[65]=",
+ CellID->28258624,ExpressionUUID->"681dfd9f-16c1-4253-b36d-d71eaacfb2ee"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Coth", "[", "z", "]"}], "z"], ",", 
+   "\"\<the cothc function Cothc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715552096756926`*^9, 3.8715552518376603`*^9}, {
+  3.8715553926863213`*^9, 3.8715554018540072`*^9}},
+ CellLabel->"In[66]:=",
+ CellID->44314337,ExpressionUUID->"1e0e87e7-03da-457c-9c9e-f212c0653f4a"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the cothc function Cothc(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715554054169874`*^9},
+ CellLabel->"Out[66]=",
+ CellID->482188821,ExpressionUUID->"5a2c5f1c-8fbe-4a6d-9cfb-57c3b5ef64bb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Sech", "[", "z", "]"}], "z"], ",", 
+   "\"\<the sechc function Sechc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715552096756926`*^9, 3.8715552518376603`*^9}, {
+  3.8715553926863213`*^9, 3.8715554018540072`*^9}, {3.871555650716689*^9, 
+  3.8715556673091235`*^9}},
+ CellLabel->"In[67]:=",
+ CellID->508351078,ExpressionUUID->"b1fb1a61-551c-49d0-ab19-ae1217eb7339"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the sechc function Sechc(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.87155566995374*^9},
+ CellLabel->"Out[67]=",
+ CellID->499455697,ExpressionUUID->"31fc8f70-7234-4db5-8f58-7e26b85a7f27"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cschc", "Section",
+ CellChangeTimes->{{3.871562365836152*^9, 3.8715623678208256`*^9}},
+ CellID->114233870,ExpressionUUID->"7d9af0bb-c740-4b5e-8006-963a2027ee2d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExportSpecialFunction", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Csch", "[", "z", "]"}], "z"], ",", 
+   "\"\<the cschc function cschc(z)\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8715623887060018`*^9, 3.871562396167241*^9}},
+ CellLabel->"In[4]:=",
+ CellID->195269854,ExpressionUUID->"2459b11e-5f1f-46dd-866a-3357c151ceb0"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\burbery1\\\\Documents\\\\GitHub\\\\special-\
+functions\\\\A plot of the cschc function cschc(z) in the complex plane from \
+-2-2i to 2+2i with colors created with the Mathematica function \
+ComplexPlot3D.svg\"\>"], "Output",
+ CellChangeTimes->{3.8715624019174294`*^9},
+ CellLabel->"Out[4]=",
+ CellID->93719665,ExpressionUUID->"5e425b77-cef5-4be2-aca1-c49a6acf0058"]
+}, Open  ]],
+
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.8715527854157457`*^9, 3.8715527861031046`*^9}},
  CellID->204896559,ExpressionUUID->"c2e6a271-e5bf-4f13-a4d8-9d3970fb61f3"],
@@ -12698,7 +13130,7 @@ Cell["XXXX", "Item",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{737.25, 735.75},
+WindowSize->{737.25, 729.75},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 TaggingRules->{
  "ResourceType" -> "ComputationalEssay", "ResourceCreateNotebook" -> True, 
@@ -14855,15 +15287,15 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Examples", 848261, 14814},
- {"Your Essay Title", 848447, 14818},
- {"AuthorName", 848627, 14822},
- {"Abstract", 848786, 14826},
- {"TemplateCell", 848967, 14830},
- {"SectionHeader", 849149, 14834},
- {"ExampleTopicSentence", 849325, 14838},
- {"ExampleCodeText", 849500, 14842},
- {"ExampleInput", 849670, 14846}
+ {"Examples", 864989, 15246},
+ {"Your Essay Title", 865175, 15250},
+ {"AuthorName", 865355, 15254},
+ {"Abstract", 865514, 15258},
+ {"TemplateCell", 865695, 15262},
+ {"SectionHeader", 865877, 15266},
+ {"ExampleTopicSentence", 866053, 15270},
+ {"ExampleCodeText", 866228, 15274},
+ {"ExampleInput", 866398, 15278}
  }
 *)
 (*NotebookFileOutline
@@ -14903,96 +15335,152 @@ Cell[2596, 85, 117587, 2014, 366, "Output",ExpressionUUID->"bd400f5d-22c8-4c66-9
  CellID->201693965]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[120220, 2104, 607, 16, 28, "Input",ExpressionUUID->"850e6bea-35e4-4ba8-9a84-66e139767fcc",
+Cell[120220, 2104, 607, 16, 48, "Input",ExpressionUUID->"850e6bea-35e4-4ba8-9a84-66e139767fcc",
  CellID->453672180],
-Cell[120830, 2122, 147097, 2498, 1304, "Output",ExpressionUUID->"ef0327ec-4bf6-4403-95f4-69f51dbdc272",
+Cell[120830, 2122, 147097, 2498, 613, "Output",ExpressionUUID->"ef0327ec-4bf6-4403-95f4-69f51dbdc272",
  CellID->391807718]
 }, Open  ]],
-Cell[267942, 4623, 645, 16, 28, "Input",ExpressionUUID->"3f1b9ff3-bdfe-4d8a-8be2-ba17e0d3e4de",
+Cell[267942, 4623, 644, 16, 67, "Input",ExpressionUUID->"3f1b9ff3-bdfe-4d8a-8be2-ba17e0d3e4de",
  CellID->187381358],
 Cell[CellGroupData[{
-Cell[268612, 4643, 295, 6, 31, "Input",ExpressionUUID->"c7044d1f-3788-4fed-928d-78c3537368c0",
+Cell[268611, 4643, 295, 6, 31, "Input",ExpressionUUID->"c7044d1f-3788-4fed-928d-78c3537368c0",
  CellID->19460],
-Cell[268910, 4651, 147097, 2498, 1304, "Output",ExpressionUUID->"27a0b7ff-79b6-4207-a9f7-7a38ba58fb0c",
+Cell[268909, 4651, 147097, 2498, 613, "Output",ExpressionUUID->"27a0b7ff-79b6-4207-a9f7-7a38ba58fb0c",
  CellID->229578449]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[416044, 7154, 273, 5, 28, "Input",ExpressionUUID->"2d9b36d7-efe8-4bba-9067-5f553cb6c166",
+Cell[416043, 7154, 273, 5, 28, "Input",ExpressionUUID->"2d9b36d7-efe8-4bba-9067-5f553cb6c166",
  CellID->64871598],
-Cell[416320, 7161, 138956, 2367, 1303, "Output",ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da",
+Cell[416319, 7161, 138956, 2367, 612, "Output",ExpressionUUID->"0402ba6f-0a1f-481c-8d93-f22e2664f4da",
  CellID->409721729]
 }, Open  ]],
-Cell[555291, 9531, 667, 14, 48, "Input",ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304",
+Cell[555290, 9531, 726, 15, 105, "Input",ExpressionUUID->"0d6bfcf5-3cc8-4689-8966-3cc39f0af304",
  CellID->169993225],
 Cell[CellGroupData[{
-Cell[555983, 9549, 286, 5, 28, "Input",ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac",
+Cell[556041, 9550, 286, 5, 28, "Input",ExpressionUUID->"55650fb8-fd79-494e-9208-04b6cf7768ac",
  CellID->549532127],
-Cell[556272, 9556, 429, 6, 52, "Output",ExpressionUUID->"1b84bb1f-2b5c-4d59-b3ff-089f4ae966b1",
+Cell[556330, 9557, 429, 6, 71, "Output",ExpressionUUID->"1b84bb1f-2b5c-4d59-b3ff-089f4ae966b1",
  CellID->499605591]
 }, Open  ]],
-Cell[556716, 9565, 470, 10, 28, "Input",ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57",
+Cell[556774, 9566, 469, 10, 78, "Input",ExpressionUUID->"92157904-449b-409a-993b-dc959496ae57",
  CellID->1609179],
 Cell[CellGroupData[{
-Cell[557211, 9579, 341, 7, 28, "Input",ExpressionUUID->"42aea9dd-c826-41ea-a200-bc18533b3ea4",
+Cell[557268, 9580, 341, 7, 28, "Input",ExpressionUUID->"42aea9dd-c826-41ea-a200-bc18533b3ea4",
  CellID->47305941],
-Cell[557555, 9588, 423, 6, 71, "Output",ExpressionUUID->"b10e47aa-b03d-4664-825f-6f79c754d362",
+Cell[557612, 9589, 423, 6, 71, "Output",ExpressionUUID->"b10e47aa-b03d-4664-825f-6f79c754d362",
  CellID->18549926]
 }, Open  ]],
-Cell[557993, 9597, 418, 8, 86, "Input",ExpressionUUID->"a2d39fdd-7e7e-4eb9-9e77-88c5f1eccf76",
+Cell[558050, 9598, 418, 8, 86, "Input",ExpressionUUID->"a2d39fdd-7e7e-4eb9-9e77-88c5f1eccf76",
  CellID->9096334],
 Cell[CellGroupData[{
-Cell[558436, 9609, 428, 9, 31, "Input",ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f",
+Cell[558493, 9610, 428, 9, 31, "Input",ExpressionUUID->"0fe40ada-e73a-48fc-a4e1-e522931bdf5f",
  CellID->380280674],
-Cell[558867, 9620, 430, 6, 71, "Output",ExpressionUUID->"eb32b75d-272f-4c2d-a777-f253d919adbd",
+Cell[558924, 9621, 430, 6, 71, "Output",ExpressionUUID->"eb32b75d-272f-4c2d-a777-f253d919adbd",
  CellID->67324985]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[559334, 9631, 340, 7, 28, "Input",ExpressionUUID->"21d61584-e969-4e69-9588-4ea6c0aa94ce",
+Cell[559391, 9632, 340, 7, 28, "Input",ExpressionUUID->"21d61584-e969-4e69-9588-4ea6c0aa94ce",
  CellID->128556418],
-Cell[559677, 9640, 399, 6, 71, "Output",ExpressionUUID->"55b785a7-5fce-4323-911e-8093185098ea",
+Cell[559734, 9641, 399, 6, 71, "Output",ExpressionUUID->"55b785a7-5fce-4323-911e-8093185098ea",
  CellID->1690097]
 }, Open  ]],
-Cell[560091, 9649, 417, 8, 86, "Input",ExpressionUUID->"5a691678-44f8-47f4-9614-130282567c98",
- CellID->490880190],
-Cell[CellGroupData[{
-Cell[560533, 9661, 339, 7, 28, "Input",ExpressionUUID->"933fcb46-bf28-4937-9a34-f9796c24439e",
- CellID->498292158],
-Cell[560875, 9670, 402, 6, 71, "Output",ExpressionUUID->"2248155a-d626-4508-aca4-f908f156824f",
- CellID->84864194]
+Cell[560148, 9650, 417, 8, 86, "Input",ExpressionUUID->"5a691678-44f8-47f4-9614-130282567c98",
+ CellID->490880190]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[561314, 9681, 404, 9, 48, "Input",ExpressionUUID->"cc8a0238-3c36-4a90-b945-7b13e7f82bba",
+Cell[560602, 9663, 177, 2, 67, "Section",ExpressionUUID->"4cb75df3-b213-4a52-ae4c-a0909759cf27",
+ CellID->98386187],
+Cell[CellGroupData[{
+Cell[560804, 9669, 339, 7, 28, "Input",ExpressionUUID->"933fcb46-bf28-4937-9a34-f9796c24439e",
+ CellID->498292158],
+Cell[561146, 9678, 402, 6, 71, "Output",ExpressionUUID->"2248155a-d626-4508-aca4-f908f156824f",
+ CellID->84864194]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[561597, 9690, 189, 2, 67, "Section",ExpressionUUID->"7cae56f7-d7e5-40b4-b650-76b13bdd98ad",
+ CellID->133329627],
+Cell[CellGroupData[{
+Cell[561811, 9696, 404, 9, 48, "Input",ExpressionUUID->"cc8a0238-3c36-4a90-b945-7b13e7f82bba",
  CellID->67107674],
-Cell[561721, 9692, 418, 6, 71, "Output",ExpressionUUID->"a6a795ea-792e-449b-95c1-5eabd88c24be",
+Cell[562218, 9707, 418, 6, 71, "Output",ExpressionUUID->"a6a795ea-792e-449b-95c1-5eabd88c24be",
  CellID->607567282]
 }, Open  ]],
-Cell[562154, 9701, 409, 9, 48, "Input",ExpressionUUID->"1a3e3d30-1c15-4501-bdb2-5b77eca09920",
+Cell[562651, 9716, 409, 9, 48, "Input",ExpressionUUID->"1a3e3d30-1c15-4501-bdb2-5b77eca09920",
  CellID->145496103],
-Cell[562566, 9712, 703, 21, 58, "Input",ExpressionUUID->"c247770c-6009-48a6-b7a8-1e6bd3b2299b",
+Cell[563063, 9727, 703, 21, 58, "Input",ExpressionUUID->"c247770c-6009-48a6-b7a8-1e6bd3b2299b",
  CellID->13734808],
 Cell[CellGroupData[{
-Cell[563294, 9737, 260, 5, 28, "Input",ExpressionUUID->"d923417f-5a53-44eb-8d50-46fd14694c98",
+Cell[563791, 9752, 260, 5, 28, "Input",ExpressionUUID->"d923417f-5a53-44eb-8d50-46fd14694c98",
  CellID->175889000],
-Cell[563557, 9744, 501, 14, 59, "Output",ExpressionUUID->"c93a8c0a-a526-4feb-9840-f44f41266d29",
+Cell[564054, 9759, 501, 14, 59, "Output",ExpressionUUID->"c93a8c0a-a526-4feb-9840-f44f41266d29",
  CellID->85191847]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[564095, 9763, 303, 6, 28, "Input",ExpressionUUID->"ab6c4d16-deba-456c-9e1d-eb771ed0a49c",
+Cell[564592, 9778, 303, 6, 28, "Input",ExpressionUUID->"ab6c4d16-deba-456c-9e1d-eb771ed0a49c",
  CellID->365355955],
-Cell[564401, 9771, 171163, 2893, 620, "Output",ExpressionUUID->"f888739b-ae19-4b79-b06d-ba3953d2149b",
+Cell[564898, 9786, 171163, 2893, 620, "Output",ExpressionUUID->"f888739b-ae19-4b79-b06d-ba3953d2149b",
  CellID->45107379]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[735601, 12669, 381, 8, 24, "Input",ExpressionUUID->"1b6dce1d-eb28-4f04-9fb3-d826ba02637f",
+Cell[736098, 12684, 381, 8, 24, "Input",ExpressionUUID->"1b6dce1d-eb28-4f04-9fb3-d826ba02637f",
  CellID->686306484],
-Cell[735985, 12679, 401, 6, 71, "Output",ExpressionUUID->"9e89398f-037b-4cb5-9152-8f41e245df2c",
+Cell[736482, 12694, 401, 6, 71, "Output",ExpressionUUID->"9e89398f-037b-4cb5-9152-8f41e245df2c",
  CellID->267427401]
 }, Open  ]],
-Cell[736401, 12688, 171, 2, 28, "Input",ExpressionUUID->"c2e6a271-e5bf-4f13-a4d8-9d3970fb61f3",
+Cell[CellGroupData[{
+Cell[736920, 12705, 231, 4, 28, "Input",ExpressionUUID->"8e64ca37-8752-4e52-bebd-4773aee68ed4",
+ CellID->280577156],
+Cell[737154, 12711, 10398, 260, 213, "Output",ExpressionUUID->"4a28fa8d-34cc-41e1-9205-0f11b59d9b66",
+ CellID->66272385]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[747589, 12976, 363, 8, 45, "Input",ExpressionUUID->"136d3f27-7d6d-499d-8960-295b96b14145",
+ CellID->216759106],
+Cell[747955, 12986, 399, 6, 71, "Output",ExpressionUUID->"be5ecd60-4939-4f56-9b67-af5e1518e80e",
+ CellID->446493729]
+}, Open  ]],
+Cell[748369, 12995, 415, 8, 86, "Input",ExpressionUUID->"cdf4ad9a-60b2-4f33-832d-e36bebf22dc6",
+ CellID->637142524],
+Cell[CellGroupData[{
+Cell[748809, 13007, 355, 8, 46, "Input",ExpressionUUID->"aa1ed776-3245-43fe-856a-6c67a181b0be",
+ CellID->506662744],
+Cell[749167, 13017, 400, 6, 71, "Output",ExpressionUUID->"c0bc7e79-e484-42b9-9ec9-b293ad94bf6f",
+ CellID->616433555]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[749604, 13028, 359, 8, 45, "Input",ExpressionUUID->"ec6f6546-fa34-404b-bc7a-52c049272c62",
+ CellID->609576034],
+Cell[749966, 13038, 399, 6, 71, "Output",ExpressionUUID->"681dfd9f-16c1-4253-b36d-d71eaacfb2ee",
+ CellID->28258624]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[750402, 13049, 411, 9, 45, "Input",ExpressionUUID->"1e0e87e7-03da-457c-9c9e-f212c0653f4a",
+ CellID->44314337],
+Cell[750816, 13060, 400, 6, 71, "Output",ExpressionUUID->"5a2c5f1c-8fbe-4a6d-9cfb-57c3b5ef64bb",
+ CellID->482188821]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[751253, 13071, 463, 10, 45, "Input",ExpressionUUID->"b1fb1a61-551c-49d0-ab19-ae1217eb7339",
+ CellID->508351078],
+Cell[751719, 13083, 397, 6, 71, "Output",ExpressionUUID->"31fc8f70-7234-4db5-8f58-7e26b85a7f27",
+ CellID->499455697]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[752165, 13095, 167, 2, 67, "Section",ExpressionUUID->"7d9af0bb-c740-4b5e-8006-963a2027ee2d",
+ CellID->114233870],
+Cell[CellGroupData[{
+Cell[752357, 13101, 356, 8, 45, "Input",ExpressionUUID->"2459b11e-5f1f-46dd-866a-3357c151ceb0",
+ CellID->195269854],
+Cell[752716, 13111, 398, 6, 71, "Output",ExpressionUUID->"5e425b77-cef5-4be2-aca1-c49a6acf0058",
+ CellID->93719665]
+}, Open  ]],
+Cell[753129, 13120, 171, 2, 28, "Input",ExpressionUUID->"c2e6a271-e5bf-4f13-a4d8-9d3970fb61f3",
  CellID->204896559],
-Cell[736575, 12692, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
+Cell[753303, 13124, 95, 1, 32, "Item",ExpressionUUID->"acdb2ad8-0a92-4f50-8bae-de040b09b38c",
  CellID->316654537],
-Cell[736673, 12695, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
+Cell[753401, 13127, 95, 1, 32, "Item",ExpressionUUID->"8090181c-e17a-4c99-bc3c-696fb19cb01c",
  CellID->316654538]
 }, Open  ]]
 }, Open  ]]
